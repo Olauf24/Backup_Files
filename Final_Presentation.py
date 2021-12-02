@@ -13,7 +13,7 @@ def forward():
     
 def turn_left_90():
     motors.motor1.setSpeed(250)
-    motors.motor2.setSpeed(-250)
+    motors.motor2.setSpeed(-200)
     
 def main(args=None):
     rclpy.init(args=args)
